@@ -1,10 +1,10 @@
 // https://prettier.io/docs/en/configuration.html
 module.exports = {
   // 每一行的宽度(显示的字符数)
-  printWidth: 120,
+  printWidth: 140,
 
   // tab健的空格数
-  tabWidth: 2,
+  tabWidth: 4,
 
   // 是否在对象中的括号之间打印空格，{a:5}格式化为{ a: 5 }
   bracketSpacing: true,
