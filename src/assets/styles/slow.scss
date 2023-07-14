@@ -1,0 +1,57 @@
+// 控制头部组件的动画
+@keyframes topSlow {
+  10% {
+    margin-top: 10px;
+  }
+
+  100% {
+    margin-top: -200px;
+  }
+
+}
+//反向动画
+@keyframes  unTopSlow {
+  40% {
+    opacity:  80%;
+  }
+
+  100% {
+    opacity:  100%;
+
+  }
+  40% {
+    margin-top: -20px;
+  }
+
+  100% {
+    margin-top: 0px;
+
+  }
+
+}
+
+
+// 控制头部组件的动画
+@keyframes footerSlow {
+  10% {
+    opacity:  100%;
+  }
+
+  100% {
+    opacity:  0%;
+  }
+
+}
+
+// 控制脚组件的动画
+@keyframes  unFooterSlow {
+  40% {
+    opacity:  80%;
+  }
+
+  100% {
+    opacity:  100%;
+
+  }
+
+}
