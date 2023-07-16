@@ -12,6 +12,9 @@ export default defineConfig({
             mono: ['Fira Sans', 'ui-monospace', 'SFMono-Regular'],
         },
         extend: {
+            spacing: {
+                '128': '32rem',
+            },
             backgroundImage: {
                 'leather-nunchuck': "url('@/assets/images/leather-nunchuck.png')",
             },
