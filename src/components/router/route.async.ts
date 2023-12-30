@@ -4,20 +4,28 @@ import { RouteRecordRaw } from 'vue-router';
 const asyncRoutes: Array<RouteRecordRaw> = [
     {
         path: '/',
-        name: '',
+        name: 'layout',
         meta: {
-            title: '主页',
+            title: 'Dreammmmmmmmm',
             icon: '',
         },
         children: [
             {
                 path: '/home',
-                name: 'home',
                 component: () => import('@/views/home/index.vue'),
+                name: 'home',
+                meta: {
+                    title: '首页',
+                    icon: '',
+                },
             },
             {
                 path: '/begin',
-                name: 'begin',
+                name: 'Begin',
+                meta: {
+                    title: 'The story begins',
+                    icon: '',
+                },
                 component: () => import('@/views/begin.vue'),
             },
         ],
